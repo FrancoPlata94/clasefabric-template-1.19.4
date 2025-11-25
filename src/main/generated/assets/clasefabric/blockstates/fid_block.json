@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "clasefabric:block/fid_block"
+    }
+  }
+}

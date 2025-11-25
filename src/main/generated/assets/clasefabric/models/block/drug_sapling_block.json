@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "clasefabric:block/drug_sapling_block"
+  }
+}

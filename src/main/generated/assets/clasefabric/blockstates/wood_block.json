@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "clasefabric:block/wood_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "clasefabric:block/wood_block"
+    },
+    "axis=z": {
+      "model": "clasefabric:block/wood_block",
+      "x": 90
+    }
+  }
+}

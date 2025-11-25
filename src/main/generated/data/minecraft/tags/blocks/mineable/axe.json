@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "clasefabric:table_block",
+    "clasefabric:wood_block",
+    "clasefabric:log_block"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "clasefabric",
+	"version": "${version}",
+	"name": "ClaseFabric",
+	"description": "Este mod e sodnde estoy aprendidendo a programar xddxdd",
+	"authors": [
+		"Franco plata"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/clasefabric/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.franco.clasefabric.ClaseFabric"
+		],
+		"fabric-datagen": [
+			"com.franco.clasefabric.ClaseFabricDataGenerator"
+		],
+		"client": [
+			"com.franco.clasefabric.ClaseFabricClient"
+		]
+	},
+	"mixins": [
+		"clasefabric.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

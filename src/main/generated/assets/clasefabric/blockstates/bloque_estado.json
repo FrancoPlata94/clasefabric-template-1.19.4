@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "clasefabric:block/bloque_estado"
+    }
+  }
+}

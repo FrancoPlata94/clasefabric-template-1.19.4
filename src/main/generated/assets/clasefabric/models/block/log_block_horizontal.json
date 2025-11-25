@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "clasefabric:block/log_block_top",
+    "side": "clasefabric:block/log_block"
+  }
+}
