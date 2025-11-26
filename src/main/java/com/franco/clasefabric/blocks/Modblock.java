@@ -26,7 +26,7 @@ public class Modblock {
     public static final Pair<Block, Item> WOOD_BLOCK = registerBlock("wood_block", new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(0.8f).requiresTool()));
     public static final Pair<Block, Item> DRUG_SAPLING_BLOCK = registerBlock("drug_sapling_block", new SaplingBlock(new ModSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.ACACIA_SAPLING).strength(0.2f)));
     public static final Pair<Block, Item> LEAVES_BLOCK = registerBlock("leaves_block", new LeavesBlock(FabricBlockSettings.copyOf( Blocks.ACACIA_LEAVES).strength(0.3f).requiresTool()));
-    public static final Pair<Block, Item> BLOQUE_CON_ESTADO =registerBlock("bloque_estado",new MiBloqueOrientable(FabricBlockSettings.copyOf(Blocks.DIRT).strength(0.8f).requiresTool()));
+    public static final Pair<Block, Item> BLOQUE_CON_ESTADO =registerBlock("bloque_estado",new BloqueConEstado(FabricBlockSettings.copyOf(Blocks.DIRT).strength(0.8f).requiresTool()));
 
 
 

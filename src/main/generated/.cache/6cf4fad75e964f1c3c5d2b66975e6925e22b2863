@@ -1,4 +1,4 @@
-// 1.19.4	2025-11-23T18:46:57.6057604	ClaseFabric/Model Definitions
+// 1.19.4	2025-11-25T22:02:31.8958357	ClaseFabric/Model Definitions
 746f1f9b501c80fd1373aa786eeeca2896a930cf assets\clasefabric\models\item\cristal_del_reino.json
 0ff87614af690012496fa1899f5baa706666f6d1 assets\clasefabric\models\block\table_block.json
 a911cdec52397dd584b045b4e1b6f16ec4cd1bc3 assets\clasefabric\models\item\leaves_block.json
@@ -19,6 +19,7 @@ be6497062bed4f8976e0014b1a5c09f995a7e934 assets\clasefabric\models\item\cumblock
 80c362cd793eea581fd3c5df675d413b51013c6e assets\clasefabric\models\item\drug_sapling_block.json
 f9c5cbd5112d5e8a183ea15b746a338ad658a0a6 assets\clasefabric\models\item\saltena.json
 0b59db2c3b577a1b62905134030af5e66270414e assets\clasefabric\blockstates\table_block.json
+b37a9507ce498e8a32967dd2db6ca9fc222da8b3 assets\clasefabric\models\block\bloque_estado_encendido.json
 9f6b051c728ede55e1fb4ed60fd846b8f8339aec assets\clasefabric\blockstates\cumblock.json
 233e05b700f6de22ac387612d8964708b097b443 assets\clasefabric\models\block\wood_block.json
 0b7ce7094dbbe6658996adb8a05b95b3ae592c16 assets\clasefabric\models\item\paja_juntada.json
@@ -26,5 +27,5 @@ f9c5cbd5112d5e8a183ea15b746a338ad658a0a6 assets\clasefabric\models\item\saltena.
 a17ae9df0a097ecc9f45d49e0bdb1f4ec965b2e8 assets\clasefabric\blockstates\leaves_block.json
 98157aa2d2d7dfe2a8b52fdd57ef03136abe4884 assets\clasefabric\models\item\chisel.json
 b948f7f9b50332bc3f8906d0d80b23ca3b806084 assets\clasefabric\blockstates\log_block.json
-a48759fa8a38d088ae6a09c4d7d354e0e4b4af20 assets\clasefabric\blockstates\bloque_estado.json
+a253c4e2f49d45c33790d9a9f6a752b3019ae926 assets\clasefabric\blockstates\bloque_estado.json
 b0b8421fbaa0e14da05f9742dea5f9f056e4ca5b assets\clasefabric\models\block\log_block_horizontal.json

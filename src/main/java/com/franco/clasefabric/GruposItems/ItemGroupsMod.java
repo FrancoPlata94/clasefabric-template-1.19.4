@@ -33,6 +33,10 @@ public class ItemGroupsMod {
                 entries.add(itemComida.SALTENA);
                 entries.add(Modblock.BLOQUE_CON_ESTADO.getLeft().asItem());
                 entries.add(Modblock.BloqueContador.getLeft().asItem());
+                entries.add(ItemMod.ESPADA_CRISTAL);
+                entries.add(ItemMod.HACHA_CRISTAL);
+                entries.add(ItemMod.PALA_CRISTAL);
+                entries.add(ItemMod.PICO_CRISTAL);
 
 
             })

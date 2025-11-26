@@ -24,6 +24,6 @@ public class ClaseFabric implements ModInitializer {
 		ModFLAMABLEBOCK.registerFlamableblock();
 		itemCombustible.registerFuels();
 		itemComida.RegistrandoItemsComida();
-		//oprobando commits
+
 	}
 }

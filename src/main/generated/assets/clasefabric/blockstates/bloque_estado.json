@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "cliqueado=false": {
       "model": "clasefabric:block/bloque_estado"
+    },
+    "cliqueado=true": {
+      "model": "clasefabric:block/bloque_estado_encendido"
     }
   }
 }

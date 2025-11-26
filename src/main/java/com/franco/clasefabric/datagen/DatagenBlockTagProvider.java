@@ -1,6 +1,7 @@
 package com.franco.clasefabric.datagen;
 
 import com.franco.clasefabric.blocks.Modblock;
+import com.franco.clasefabric.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -27,6 +28,8 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
                 .add(Modblock.TABLE_BLOCK.getLeft());
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(Modblock.CUMBLOCK.getLeft());
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_CRISTAL_TOOL)
+                .add(Modblock.BloqueContador.getLeft());
     }
 
 }
