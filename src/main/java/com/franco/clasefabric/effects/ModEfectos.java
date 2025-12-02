@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 public class ModEfectos  {
 
     public static final RegistryEntry<StatusEffect> Random=registrarEfecto("random_efe",new EfectoRandom(StatusEffectCategory.NEUTRAL,0x36ebab));
-
+    public static final RegistryEntry<StatusEffect> placaje=registrarEfecto("placaje",new ComplejoEffect(StatusEffectCategory.NEUTRAL,0x36ebab));
 
     private static RegistryEntry<StatusEffect> registrarEfecto(String nombre,StatusEffect s){
         return Registry.registerReference(Registries.STATUS_EFFECT,Identifier.of(ClaseFabric.MOD_ID,nombre),s);

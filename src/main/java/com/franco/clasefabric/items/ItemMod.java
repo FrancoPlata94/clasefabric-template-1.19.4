@@ -7,6 +7,7 @@ import com.franco.clasefabric.items.Herramientas.custom.Hammer;
 import com.franco.clasefabric.items.armadura.ModArmaduraMaterial;
 import com.franco.clasefabric.items.avanzado.ChiselItem;
 import com.franco.clasefabric.items.avanzado.PipaItem;
+import com.franco.clasefabric.items.avanzado.PlacajeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -30,6 +31,7 @@ public class ItemMod {
     public static  final Item PECHERA_CRISTAL=registerItem("pechera_cristal",new ArmorItem(ModArmaduraMaterial.CRISTAL, ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
     public static  final Item PANTALONM_CRISTAL=registerItem("pantalon_cristal",new ArmorItem(ModArmaduraMaterial.CRISTAL, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
     public static  final Item BOTA_CRISTAL=registerItem("bota_cristal",new ArmorItem(ModArmaduraMaterial.CRISTAL, ArmorItem.Type.BOOTS,new FabricItemSettings()));
+    public static final Item Placaje=registerItem("placaje_item",new PlacajeItem(new FabricItemSettings()));
 
 
 

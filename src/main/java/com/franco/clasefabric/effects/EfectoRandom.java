@@ -31,7 +31,6 @@ public class EfectoRandom extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
 
         if (entity.isOnGround() ){
-            System.out.println(entity.getRotationVec(1));
             BlockPos b=entity.getBlockPos();
             BlockPos a=new BlockPos(b.getX(),b.getY()-1,b.getZ());
             if (!entity.getWorld().getBlockState(a).isAir() && !entity.getWorld().getBlockState(a).isOf(Blocks.BEDROCK)){
