@@ -51,9 +51,8 @@ public enum ModHerramientaMateriales implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 0;
+        return 4;
     }
-
 
     @Override
     public int getEnchantability() {

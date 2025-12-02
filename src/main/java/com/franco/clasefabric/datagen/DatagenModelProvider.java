@@ -43,6 +43,10 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(itemCombustible.PAJA_JUNTADA, Models.GENERATED);
         itemModelGenerator.register(itemComida.SALTENA,Models.GENERATED);
         itemModelGenerator.register(ItemMod.CRISTAL, Models.GENERATED);
+        itemModelGenerator.register(ItemMod.ESPADA_CRISTAL, Models.GENERATED);
+        itemModelGenerator.register(ItemMod.HACHA_CRISTAL,Models.GENERATED);
+        itemModelGenerator.register(ItemMod.PALA_CRISTAL,Models.GENERATED);
+        itemModelGenerator.register(ItemMod.PICO_CRISTAL,Models.GENERATED);
 
     }
 }

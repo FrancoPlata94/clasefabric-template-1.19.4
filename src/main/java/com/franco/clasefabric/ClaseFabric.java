@@ -3,11 +3,14 @@ package com.franco.clasefabric;
 import com.franco.clasefabric.GruposItems.ItemGroupsMod;
 import com.franco.clasefabric.blocks.ModFLAMABLEBOCK;
 import com.franco.clasefabric.blocks.Modblock;
+import com.franco.clasefabric.effects.ModEfectos;
 import com.franco.clasefabric.items.ItemMod;
 import com.franco.clasefabric.items.itemCombustible;
 import com.franco.clasefabric.items.itemComida;
+import com.franco.clasefabric.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +27,8 @@ public class ClaseFabric implements ModInitializer {
 		ModFLAMABLEBOCK.registerFlamableblock();
 		itemCombustible.registerFuels();
 		itemComida.RegistrandoItemsComida();
+		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
+		ModEfectos.efectosRegister();
 
 	}
 }

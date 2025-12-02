@@ -37,6 +37,10 @@ public class ItemGroupsMod {
                 entries.add(ItemMod.HACHA_CRISTAL);
                 entries.add(ItemMod.PALA_CRISTAL);
                 entries.add(ItemMod.PICO_CRISTAL);
+                entries.add(ItemMod.BOTA_CRISTAL);
+                entries.add(ItemMod.PANTALONM_CRISTAL);
+                entries.add(ItemMod.PECHERA_CRISTAL);
+                entries.add(ItemMod.CASCO_CRISTAL);
 
 
             })
